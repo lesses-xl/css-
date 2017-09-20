@@ -1,0 +1,26 @@
+.markdown-body li>p {
+	margin: 10px 0 2px 0;
+	font-size: 18px;
+}
+
+.markdown-body a {
+	text-decoration: none!important;
+	color: #8174F9;
+	transition: all .3s;
+}
+
+.markdown-body a:hover {
+	color: #6738FA;
+	font-size: 18px;
+}
+
+.markdown-body ol {
+	width: 320px;
+	margin: 0 auto;
+	padding-left: 105px;
+}
+
+#css {
+	text-align: center;
+}
+

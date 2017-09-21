@@ -6,21 +6,32 @@
 .markdown-body a {
 	text-decoration: none!important;
 	color: #8174F9;
+	font-size: 15px;
 	transition: all .3s;
 }
 
 .markdown-body a:hover {
 	color: #6738FA;
-	font-size: 18px;
+	font-size: 16px;
 }
 
 .markdown-body ol {
 	width: 320px;
 	margin: 0 auto;
-	padding-left: 105px;
+	padding-left: 85px;
 }
 
 #css {
 	text-align: center;
+	width: 100%;
+	/* padding-top: 10px; */
 }
 
+body .markdown-body {
+    width: 660px;
+    margin: 0px auto;
+    border: 1px solid gray;
+    padding: 10px 0;
+    min-height: 720px;
+    box-sizing: border-box;
+}    
